@@ -1,0 +1,25 @@
+
+.user-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.user-box_div {
+    display: flex;
+    align-items: center;
+}
+
+.user-box_div i {
+    font-size: 35px;
+    color: rgb(187, 224, 226);
+    background-color: rgb(100, 200, 240);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.user-box_div span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 14px;
+}
