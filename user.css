@@ -18,8 +18,26 @@
     border-radius: 25px;
 }
 
-.user-box_div span {
+.user-box_div-2_div_text-1 {
     font-size: 20px;
     font-weight: 600;
     margin-left: 14px;
+}
+
+.user-box_div-2 > i {
+    color: white;
+    background-color: tomato;
+    padding: 15px;
+}
+
+.user-box_div-2_div {
+ display: flex;
+ flex-direction: column;
+}
+
+.user-box_div-2_div_text-2 {
+    padding: 0 14px;
+    margin-top: 5px;
+    color: rgba(0,0,0,0.4);
+    font-size: 14px;
 }
