@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.user-box_div_span {
+    margin-left: 15px;
+}
+
 .user-box_div i {
     font-size: 35px;
     color: rgb(187, 224, 226);
@@ -40,4 +44,25 @@
     margin-top: 5px;
     color: rgba(0,0,0,0.4);
     font-size: 14px;
+}
+
+.user-box-3 i {
+    background-color:yellow;
+}
+
+.user-box-4 i{
+    background-color: green;
+}
+
+.user-box-5 i {
+    background-color: pink;
+}
+
+.comment {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
