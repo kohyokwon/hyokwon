@@ -1,14 +1,11 @@
+const name = 'ellie';
 
-const ellie1 = {name:'ellie'};
-const ellie2 = {name:'ellie'}
-const ellie3 = ellie1;
-console.log(ellie1 == ellie2);
-console.log(ellie1 === ellie2);
-console.log(ellie1 === ellie3);
+if (name ==='ellie'){
+    console.log('Welcome, Ellie!');
+} else if(name === 'coder'){
+    console.log('You are amazing coder');
+} else {
+    console.log('unkwnon');
+}
 
-console.log(0 === false);
-console.log(0 === false);
-console.log('' == false);
-console.log('' === false);
-console.log(null == undefined);
-console.log(null === undefined);
+
