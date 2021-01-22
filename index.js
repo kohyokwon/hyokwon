@@ -8,4 +8,4 @@ if (name ==='ellie'){
     console.log('unkwnon');
 }
 
-
+console.log(name === 'elli' ? 'hyokwon' : 'mrGo');
