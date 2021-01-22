@@ -1,28 +1,20 @@
-const name = 'ellie';
 
-if (name ==='ellie'){
-    console.log('Welcome, Ellie!');
-} else if(name === 'coder'){
-    console.log('You are amazing coder');
-} else {
-    console.log('unkwnon');
+let i = 3;
+while (i > 0){
+    console.log(`while: ${i}`);
+    i--;
 }
 
-console.log(name === 'elli' ? 'hyokwon' : 'mrGo');
+do {
+    console.log(`do while: ${i}`);
+    i--;
+} while (i > 0);
 
-const browser = 'IE';
-switch (browser) {
-   case 'IE':
-    console.log('go away');
-    break;
-   case 'chrome':
-    console.log('love you');
-    break;
-   case 'Firefox':
-    console.log('love you');
-   default:
-    console.log('same all');
-    break;
+
+for (i = 3; i > 0; i--){
+    console.log(`for: ${i}`);
 }
 
-
+for (let i = 3; i > 0; i = i - 2){
+    console.log(`inline variable for: ${i}`);
+}
