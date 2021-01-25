@@ -1,24 +1,18 @@
-'use stric'
 
-function changeName (obj){
-    obj.name = 'coder';
-}
-const hyokwon = {name: 'mrGo'}
-    changeName(hyokwon);
-    console.log(hyokwon);
-
-
-
-function hyokwon2(apple, potato = 'unknown') {
-    console.log(`${apple} by ${potato}`);
-}
-hyokwon2('Hi');
-
-
-function printAll(...args) {
-    for (let i = 0; i < args.length; i++){
-        console.log(args[i]);
+function randomQuiz(answer, printYes, printNo) {
+    if (answer === 'love you') {
+        printYes();
+    }   else {
+        printNo();
     }
 }
-printAll('dream','coding','ellie');
+const printYes = function () {
+    console.log('Yes!');
+};
 
+const printNo = function print() {
+    console.log('No!');
+}
+
+randomQuiz('wrong', printYes, printNo);
+randomQuiz('love you', printYes, printNo);
