@@ -1,5 +1,7 @@
+'use stric'
 
-function log(mm) {
-    console.log(mm);
+function log (message) {
+    console.log(message);
 }
-log('Hello@');
+log(`Hello@`);
+log(1234);
