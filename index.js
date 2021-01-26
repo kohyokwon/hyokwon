@@ -1,18 +1,10 @@
 
-function randomQuiz(answer, printYes, printNo) {
-    if (answer === 'love you') {
-        printYes();
-    }   else {
-        printNo();
-    }
-}
-const printYes = function () {
-    console.log('Yes!');
-};
+console.log('my' + ' cat');
 
-const printNo = function print() {
-    console.log('No!');
-}
+console.log('1 ' +  2);
 
-randomQuiz('wrong', printYes, printNo);
-randomQuiz('love you', printYes, printNo);
+console.log();
+
+let x = 3;
+let y = 4;
+
