@@ -15,3 +15,8 @@ const result = sum(1, 2);
 console.log(`sum: ${sum(1, 2)}`);
 
 
+function upgradeUser(user) {
+    if (user.point <= 10) {
+        return;
+    }
+}
