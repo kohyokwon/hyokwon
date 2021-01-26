@@ -1,16 +1,18 @@
 
-console.log('my' + ' cat');
+const stringFive = '5';
+const numberFive = 5;
 
-console.log('1 ' +  2);
-
-console.log();
-
-let x = 3;
-let y = 4;
+console.log(stringFive !== numberFive);
 
 
-const value1 = false;
-const value2 = 4 < 2;
+if (name === 'hyokwon') {
+    console.log('Wellcome, hyokwon!');
+}   else if (name === 'coder'){
+    console.log('You are amazing coder');
+} else {
+    console.log('unkwnon');
+}
 
-console.log(!value1);
 
+const name = "coder1";
+console.log(name === 'coder1' ? 'yes' : 'no');
