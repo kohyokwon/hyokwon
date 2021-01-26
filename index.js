@@ -1,8 +1,17 @@
 
-
-function printAll(...args) {
-    for (const arg of args){
-        console.log(arg);
-    };
-    printAll('dream', 'coding', 'ellie');
+let globalMessage = 'global';
+function printMessage() {
+    let message = 'hello';
+    console.log(message);
+    console.log(globalMessage);
 }
+printMessage();
+
+function sum(a, b) {
+    return a + b;
+}
+
+const result = sum(1, 2);
+console.log(`sum: ${sum(1, 2)}`);
+
+
