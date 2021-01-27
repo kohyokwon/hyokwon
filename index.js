@@ -1,6 +1,6 @@
-
-function introduce (name, say) {
-    console.log(`My name is ${name} ${say}`);
+function printAll(...args) {
+    for (let i = 0; i < args.length; i++){
+        console.log(args[i]);
+    }
 }
-
-introduce ('hyokwon', 'Thank you');
+printAll('dream', 'coding', 'ellie');
