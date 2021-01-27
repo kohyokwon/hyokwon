@@ -1,14 +1,14 @@
-const browser = 'chrome';
-switch (browser) {
-    case 'IE':
-    case 'chrome':
-        console.log('go away!');
-        break;
-}
-    
-let i = 3;
 
-do {
-    console.log(`while: ${i}`);
-    i--;
-}   while (i > 0);
+for (i = 3; i > 0; i--) {
+    console.log(`forL ${i}`);
+}
+
+for (let i = 4; i > 0; i = i - 2) {
+    console.log(`inline variable for: ${i}`);
+}
+
+for (let i = 0; i < 10; i++){
+    for (let j = 0; j < 10; j++){
+        console.log(`i: ${i}, j:${j}`);
+    }
+}
