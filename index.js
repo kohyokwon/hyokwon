@@ -1,17 +1,17 @@
-'use strict'
 
-let globalname = 'global name';
-{
-    let name = 'hyokwon';
-    console.log(globalname);
+let x = 3;
+let y = 6;
+console.log(x += y);
+console.log(10 < 6);
+
+const value1 = false;
+const value2 = 4 < 2;
+console.log(`or: ${value1 || value2 || check()}`);
+function check() {
+    for (let i = 0; i < 2; i++) {
+        console.log('^^');
+        return true;
+    }
 }
-console.log(globalname);
 
-
-{
-    age = 4;
-    let age;
-}
-console.log(age);
-
-console.log('my' + ' cat');
+console.log(!value1);
