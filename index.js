@@ -1,16 +1,14 @@
-
-const stringFive = 7;
-const numberFive = 5;
-
-console.log(stringFive !== numberFive);
-
-const name = 'hyokwon';
-if (name === 'hyokwon') {
-    console.log('Wellcome, hyokwon');
-} else if (name ==='coder') {
-    console.log('you are amazing coder');
-} else {
-    console.log('unkwnon');
+const browser = 'chrome';
+switch (browser) {
+    case 'IE':
+    case 'chrome':
+        console.log('go away!');
+        break;
 }
+    
+let i = 3;
 
-console.log(name !== 'hyokwon' ? 'Yes' : 'No');
+do {
+    console.log(`while: ${i}`);
+    i--;
+}   while (i > 0);
