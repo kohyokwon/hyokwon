@@ -1,20 +1,17 @@
+'use strict'
 
-function randomQuiz(answer, printYes, printNo){
-    if (answer === 'love you') {
-        printYes();
-    } else {
-        printNo();
-    }
+let globalname = 'global name';
+{
+    let name = 'hyokwon';
+    console.log(globalname);
 }
+console.log(globalname);
 
-const printYes = function() {
-    console.log('Yes!');
-};
 
-const printNo = function hyokwon() {
-    console.log('No!'); 
-};
+{
+    age = 4;
+    let age;
+}
+console.log(age);
 
-randomQuiz('wrong', printYes, printNo);
-
-    
+console.log('my' + ' cat');
