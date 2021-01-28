@@ -1,13 +1,5 @@
-'use strict'
-
-const name = 'hyokwon2';
- if (name === 'hyokwon'){
-     console.log('Welcome, hyokwon!');
- } else if(name === 'coder') {
-     console.log('you are amazing coder');
- } else {
-     console.log('unkwnon');
- }
 
 
- console.log(name === 'hyokwon2' ? 'Yes' : 'No');
+for (i = 3; i >0; i = i - 2){
+    console.log(`inline variable for: ${i}`);
+}
