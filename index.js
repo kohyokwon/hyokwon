@@ -1,23 +1,9 @@
 
-let i = 9;
-console.log(i);
-
-function printAll(...args){
-    for (const arg of args){
-        console.log(arg);
-    }
+function hyokwon(a, b) {
+    return a + b;
 }
+hyokwon(1, 3);
+console.log(`1 + 2 = ${hyokwon(1, 3)}`);
 
-printAll('hyokwon','midlle','mrGo');    
-
-
-
-
-
-function upgradeUser(user){
-    if (user.point <= 10){
-        return;
-    }
-}
 
 
