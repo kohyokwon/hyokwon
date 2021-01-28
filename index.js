@@ -1,13 +1,12 @@
 
+let i = 9;
+console.log(i);
 
-
-function printAll(...args) {
-    for (let i = 0; i < args.length; i++){
-        console.log(args[i]);
+function printAll(...args){
+    for (const arg of args){
+        console.log(arg);
     }
 }
 
-printAll('dream', 'coding', 'hyokown');
+printAll('hyokwon','midlle','mrGo');    
 
-let i = 4;
-console.log(i);
