@@ -10,3 +10,12 @@ function printAll(...args){
 
 printAll('hyokwon','midlle','mrGo');    
 
+
+
+
+
+function upgradeUser(user){
+    if (user.point <= 10){
+        return;
+    }
+}
