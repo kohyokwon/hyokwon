@@ -1,15 +1,16 @@
 
-class person {
-    constructor(name, age){
-        this.name = name;
-        this.age
+class User {
+    constructor(firstName,lastName,age){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
-    speak() {
-        console.log(`${this.name}: Hello!`);
+    get age() {
+        return this._age;
+    }
+    set age(value) {
+        this._age = value;
     }
 }
-const hyokwon = new person ('hyokwon', 20);
-console.log(hyokwon.name);
-console.log(hyokwon.age);
-hyokwon.speak();
-
+const user1 = new User('hyokwon', 'Job', -1);
+console.log(user1.age);
