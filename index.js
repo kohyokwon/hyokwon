@@ -1,8 +1,5 @@
-
-function calculate(command, a, b) {
-    switch (command) {
-        case 'add':
-            return a + b;
-        
-    }
+function showMessage (messag, from = 'unknown'){
+    console.log(`${messag} by ${from}`);
 }
+showMessage('Hi');
+
