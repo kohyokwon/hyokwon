@@ -1,8 +1,6 @@
 
-function printAll(...args) {
-    for (const arg of args) { 
-        console.log(arg);
-    }
+function sum(a, b) {
+    return a + b;
 }
-printAll('dream', 'coding', 'ellie');
-
+const result = sum(1, 2);
+console.log(`sum: ${sum(1, 2)}`);
