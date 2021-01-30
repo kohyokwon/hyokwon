@@ -1,19 +1,15 @@
-const simpleprint = function() {
-    console.log('simpleprint');
-};
 
-const simpleprint = () => console.log('simpleprint!');
+class person {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    speak() {
+        console.log(`${this.name}: hello!`);
+    }
+}
 
-const add = function (a, b) {
-    return a + b;
-};
-
-const add = (a, b) => a + b;
-
-const simpleMultiply = (a, b) => {
-    return a * b;
-};
-
-(function hello() {
-    console.log('IIFE');
-}) ();
+const ellie = new person('ellie', 20);
+console.log(ellie.name);
+console.log(ellie.age);
+ellie.speak();
