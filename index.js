@@ -1,4 +1,3 @@
-
 class Shape {
     constructor(width, height, color) {
         this.width = width;
@@ -28,3 +27,8 @@ console.log(rectangle.getArea())
 const triangle = new Triangle(30, 30, 'blue');
 triangle.draw();
 console.log(triangle.getArea());
+
+
+console.log(rectangle instanceof Rectangle);
+console.log(triangle instanceof Rectangle);
+console.log();
