@@ -1,18 +1,30 @@
 
-class User {
-    constuctor(firstName, lastName, age){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
+class Shape {
+    constructor(width, height, color) {
+        this.width = width;
+        this.height = height;
+        this.color = color;
     }
-    get age() {
-        return this._age;
+    draw() {
+        console.log(`drawing ${this.color} color of`);
     }
-    set age(value){
-        if(value < 0);
-        this._age = 3;
-    } 
+
+    getArea() {
+        return this.width * this.height;
+    }
 }
 
-const user1 = new User('steve', 'Job', -1);
-console.log(user1.age);
+class Rectangle extends Shape {}
+class Triangle extends Shape {
+    draw() {
+        super.draw();
+        console.log('hoykwon');
+    }
+}
+
+const rectangle = new Rectangle(20, 20, 'red');
+rectangle.draw();
+console.log(rectangle.getArea())
+const triangle = new Triangle(30, 30, 'blue');
+triangle.draw();
+console.log(triangle.getArea());
