@@ -1,6 +1,5 @@
 
-function sum(a, b) {
-    return a + b;
+function hyokwon(a, b) {
+    return a * b;
 }
-const result = sum(1, 2);
-console.log(`sum: ${sum(1, 2)}`);
+const qqq = hyokwon(3, 4);
