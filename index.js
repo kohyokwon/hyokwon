@@ -1,5 +1,8 @@
-function showMessage (messag, from = 'unknown'){
-    console.log(`${messag} by ${from}`);
+
+function printAll(...args) {
+    for (const arg of args) { 
+        console.log(arg);
+    }
 }
-showMessage('Hi');
+printAll('dream', 'coding', 'ellie');
 
