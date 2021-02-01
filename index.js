@@ -1,5 +1,5 @@
 
-const array = [1, 2, 3, 4, 5];
- for(value of array) {
-     console.log(value);
- }
+const user = 'qwe';
+const user4 = {};
+Object.assign(user4, user);
+console.log(user4);
