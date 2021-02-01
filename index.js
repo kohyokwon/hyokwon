@@ -1,5 +1,4 @@
 
-const user3 = {};
-for (key in user) {
-    user3[key] = user[key];
+for(i = 3; i > 0; i--){
+    console.log(`for: ${i}`);
 }
