@@ -1,5 +1,7 @@
 
-const fruits = ['🍖','🍺'];
-for (let i = 0; i < fruits.length; i++){
-    console.log(fruits[i]);
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
 }
+const person4 = new Person('hyokwon', 30);
+console.log(person4);
