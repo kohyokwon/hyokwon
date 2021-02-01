@@ -1,4 +1,3 @@
 
-for(i = 3; i > 0; i--){
-    console.log(`for: ${i}`);
-}
+let i = 3;
+console.log(i);
