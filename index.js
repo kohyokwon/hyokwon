@@ -1,5 +1,5 @@
 
-const user = 'qwe';
-const user4 = {};
-Object.assign(user4, user);
-console.log(user4);
+const fruits = ['🍔','🥙'];
+for (let i = 0; i < fruits.length; i++){
+    console.log(fruits[i]);
+}
