@@ -1,4 +1,6 @@
-const array = [1, 2, 3, 4, 5];
-for (value of array){
-    console.log(value);
-}
+
+fruits.forEach(function(fruit) {
+    console.log(fruit, index, array);
+});
+
+fruits.forEach((fruit) => console.log(fruit));
