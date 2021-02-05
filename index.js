@@ -1,4 +1,5 @@
 
 const array = [1, 2, 3, 4, 5];
-const result = array.reverse();
+const result = array.splice(0, 2);
 console.log(result);
+console.log(array);
