@@ -1,5 +1,4 @@
-
-const array = [1, 2, 3, 4, 5];
-const result = array.splice(0, 2);
-console.log(result);
-console.log(array);
+const fruits = ['효권이의 연습'];
+for (let fruit of fruits) {
+    console.log(fruit);
+}
