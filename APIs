@@ -7,3 +7,18 @@ DOM APIs (Documnet Object Model)
 
 HTTP(Hypertext Transfer Protocol)
 통신규약을 정해 놓은것
+
+Web APIs Security(정보보안에 민감함)
+
+request : 요청
+
+response: 회신
+
+secure: 안전한
+
+encryption, encrypt: 암호화
+
+HTTP는 보안 처리가 되지 않고, HTTPS 보안 처리가 되어 있기 때문에
+몇몇에 Web APIs는 HTTPS 환경에서만 동작 할 수가 있음 ㅋㅋ
+
+
