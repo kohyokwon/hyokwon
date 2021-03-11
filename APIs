@@ -1,4 +1,20 @@
-Application Programming Interfaces
+Application Programming Interface
+
+API : 응용프로그램 간에 데이터를 주고받는 방법
+      데이터 요청 양식과 인증,제한 등등 응용프로그램간 소통을 위한방법
+
+Interface: 어떤한 두 가지가 서로 열결되고 영향을
+미칠 수 있는 장소/방법/상황
+
+API를 사용하려면 응용양식부터 살펴봐야함 ㅋㅋ
+
+API비즈니스 : 빠르고 유연한 비즈니스 구축
+             비즈니스 품질 항상
+             API기반 생태계 확립
+
+모듈(부품) : 
+
+Ui(user interface) : 디지털 기기에 명령을 내리는 방법
 
 DOM APIs (Documnet Object Model)
 
