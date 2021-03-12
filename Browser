@@ -1,9 +1,0 @@
-Window > Document > Navigator
-
-window.screen: browser 바깥에 있는 아이들까지 다 합한것 (모니터 사이즈)
-
-window.outer: 전체적이 browser에 전체적인 사이즈
-
-window.inner: 페이지가 표기되는부분 (스크롤바도 포함)
-
-documentElement.clientWidth: 스크롤바를 제외한 사이즈
