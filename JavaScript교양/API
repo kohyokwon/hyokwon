@@ -1,4 +1,4 @@
-C Programming Interface
+Application Programming Interface
 
 API : 응용프로그램 간에 데이터를 주고받는 방법
       데이터 요청 양식과 인증,제한 등등 응용프로그램간 소통을 위한방법
